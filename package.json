@@ -1,0 +1,42 @@
+{
+  "name": "spicetify-announcer",
+  "version": "1.0.0",
+  "description": "Spicetify extension to announce tracks recently played during playback. The voice is generated using Resemble.ai's API.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=build/SpicetifyAnnouncer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlueder/spotify-announce-tracks.git"
+  },
+  "keywords": [
+    "spotify",
+    "machine",
+    "learning",
+    "text-to-speech",
+    "resemble"
+  ],
+  "author": "Rafael Lüder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rlueder/spotify-announce-tracks/issues"
+  },
+  "homepage": "https://github.com/rlueder/spotify-announce-tracks#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.11",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.47.0",
+    "@aws-sdk/client-polly": "^3.47.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.47.0",
+    "@aws-sdk/polly-request-presigner": "^3.47.0",
+    "date-fns": "^2.28.0"
+  }
+}
