@@ -10,7 +10,7 @@ recently
 played, similar to what a live radio show would do. It also announces the 
 time and the local weather forecast based on configuration parameters.
 
-![SpicetifyAnnouncer](SpicetifyAnnouncer.mp4)
+https://user-images.githubusercontent.com/341543/150606047-1e7fee44-5185-4dc3-94f3-e4dfa0cba574.mp4
 
 ## Table of Contents
 
@@ -26,6 +26,7 @@ time and the local weather forecast based on configuration parameters.
 
 These instructions will get you a copy of the project up and running on your 
 local machine.
+
 
 ### 1.1 Prerequisites
 
