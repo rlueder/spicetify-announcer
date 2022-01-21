@@ -10,6 +10,8 @@ recently
 played, similar to what a live radio show would do. It also announces the 
 time and the local weather forecast based on configuration parameters.
 
+![SpicetifyAnnouncer](SpicetifyAnnouncer.mp4)
+
 ## Table of Contents
 
 - [1. Getting Started](#1-getting-started)
