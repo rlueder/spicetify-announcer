@@ -1,22 +1,20 @@
 {
   "name": "spicetify-announcer",
   "version": "1.0.0",
-  "description": "Spicetify extension to announce tracks recently played during playback. The voice is generated using Resemble.ai's API.",
+  "description": "A Spicetify extension to announce song details, time and local weather in-between tracks.",
   "main": "src/index.js",
   "scripts": {
-    "build": "esbuild src/index.js --bundle --outfile=build/SpicetifyAnnouncer.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "esbuild src/index.js --bundle --outfile=build/SpicetifyAnnouncer.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rlueder/spotify-announce-tracks.git"
   },
   "keywords": [
+    "spicetify",
     "spotify",
-    "machine",
-    "learning",
-    "text-to-speech",
-    "resemble"
+    "polly",
+    "text-to-speech"
   ],
   "author": "Rafael Lüder",
   "license": "MIT",

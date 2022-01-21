@@ -10,6 +10,8 @@ recently
 played, similar to what a live radio show would do. It also announces the 
 time and the local weather forecast based on configuration parameters.
 
+Sound on! 👇
+
 https://user-images.githubusercontent.com/341543/150606047-1e7fee44-5185-4dc3-94f3-e4dfa0cba574.mp4
 
 ## Table of Contents
@@ -101,8 +103,7 @@ success Spotify is spiced up!
 ```
 
 5. Update `~/.config/config-xpui.ini` to include SpicetifyAnnouncer.js in the 
-   extensions line, you only need to do this once. (NOTE: the location of 
-   the file might be different on your system).
+   extensions line, you only need to do this once. (NOTE: your file might be in a different location depending on your system)
 
 ```
 [AdditionalOptions]
