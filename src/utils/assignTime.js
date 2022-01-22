@@ -1,4 +1,4 @@
-import { format } from "date-fns";
+import tinytime from "tinytime";
 
 import { ANNOUNCE_TIME_MINUTES } from "../config";
 
@@ -11,8 +11,8 @@ import { ANNOUNCE_TIME_MINUTES } from "../config";
 const assignTime = () => {
   const now = new Date();
   if (ANNOUNCE_TIME_MINUTES.includes(now.getMinutes())) {
-    const date = format(new Date(Date.now()), "p 'on' MMMM do");
-    return `it's ${date} and`;
+    const template = tinytime("It's {h}:{mm}{a} on {MMMM} {Do} and");
+    return template.render(new Date());
   }
   return "";
 };

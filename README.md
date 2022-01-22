@@ -118,10 +118,11 @@ work!
 - [aws-sdk-js-v3](https://github.com/aws/aws-sdk-js-v3) - modularized AWS 
   SDK for JavaScript.
 
-- [date-fns](https://github.com/date-fns/date-fns) - modern JavaScript date utility library.
-
 - [spicetify-cli](https://github.com/khanhas/spicetify-cli) - command line
   tool to customize Spotify client.
+- 
+- [tinytime](https://github.com/aweary/tinytime) - a straightforward date
+  and time formatter in < 800b.
 
 - [OpenWeather API](https://openweathermap.org/api) - free weather data APIs.
 

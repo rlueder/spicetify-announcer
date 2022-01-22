@@ -35,6 +35,6 @@
     "@aws-sdk/client-polly": "^3.47.0",
     "@aws-sdk/credential-provider-cognito-identity": "^3.47.0",
     "@aws-sdk/polly-request-presigner": "^3.47.0",
-    "date-fns": "^2.28.0"
+    "tinytime": "^0.2.6"
   }
 }
