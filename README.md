@@ -40,7 +40,7 @@ Node versions is to use Volta:
 
 You also need to follow the installation instructions for Spicetify:
 
-- [spicetify-cli](https://spicetify.app/docs/getting-started/installation) - command line
+- [spicetify-cli](https://spicetify.app/docs/getting-started/advanced-installation) - command line
     tool to customize Spotify client.
 
 ### 1.2 Building and Installing
@@ -120,7 +120,7 @@ work!
 
 - [spicetify-cli](https://github.com/khanhas/spicetify-cli) - command line
   tool to customize Spotify client.
-- 
+  
 - [tinytime](https://github.com/aweary/tinytime) - a straightforward date
   and time formatter in < 800b.
 
